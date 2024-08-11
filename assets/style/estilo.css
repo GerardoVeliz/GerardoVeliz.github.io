@@ -1,0 +1,305 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bloque-principal {
+    display: flex;
+    justify-content: center; /* Centra el banner horizontalmente */
+    align-items: center; /* Centra el banner verticalmente */
+    background-color: rgb(77, 74, 77); 
+    padding: 0; /* Elimina cualquier padding si el banner ocupa todo el espacio */
+    border: 4px solid white; 
+    font-family: 'Lucida Sans', sans-serif;
+    text-align: center; /* Centra el contenido dentro del bloque */
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    background-color: #8a438a; /* Color de fondo */
+    padding: 10px; /* Espacio alrededor de los elementos */
+}
+
+.navbar ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Muestra los elementos en línea */
+    justify-content: space-around; /* Distribuye los botones de manera uniforme */
+}
+
+.navbar ul li {
+    margin: 0;
+}
+
+.navbar ul li a {
+    color: white; /* Color del texto */
+    text-decoration: none; /* Elimina el subrayado */
+    padding: 10px 20px; /* Espaciado interno de los enlaces */
+    display: block;
+}
+
+.navbar ul li a:hover {
+    background-color: #723272; /* Color de fondo al pasar el cursor */
+    border-radius: 5px; /* Bordes redondeados en el hover */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.bloque-principal img {
+    width: 100%; /* Hace que el banner ocupe todo el ancho del contenedor */
+    height: auto; /* Mantiene la proporción del banner */
+    border-radius: 0; /* Elimina el borde redondeado */
+    margin: 0; /* Elimina el margen */
+}
+.texto {
+    display: flex;
+    flex-direction: column; /* Alinea los textos verticalmente */
+}
+
+.texto h2, .texto h4 {
+    margin: 0; /* Quita márgenes extra de los títulos */
+}
+
+  
+  .primer-bloque {
+    background-color: #777; 
+    color: white; body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+presentacion
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.bloque-principal {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.bloque-principal img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+h2, h4 {
+    margin: 10px 0;
+}
+
+.primer-bloque, .Aptitudes, #proyectos, #contacto {
+    padding: 20px;
+    margin: 20px;
+}
+
+.aptitudes .tech-list {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+    padding: 60px; 
+    
+}
+
+.primer-bloque h2 {
+    font-size: 24px; 
+    text-align: center;
+}
+
+.primer-bloque p.presentacion {
+    font-size: 20px; 
+}
+
+
+
+.Aptitudes {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.Aptitudes h2 {
+    font-size: 24px;
+    margin-bottom: 20px; 
+}
+
+
+.tech-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+}
+
+
+.tech-list img {
+    width: 10%;
+    margin: 0 10px;
+}
+
+
+ul {
+    list-style-position: inside;
+    padding-left: 2; 
+}
+
+
+li {
+    text-align: center; 
+}
+
+  
+
+
+/* Estilo para la sección de información académica */
+#informacion-academica {
+    background-color: #646262; /* Fondo suave para la sección */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para darle un poco de relieve */
+}
+
+#informacion-academica h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #fdf8f8; /* Color del texto del título */
+    margin-bottom: 20px;
+}
+
+.lista-academica ul {
+    list-style-type: none; /* Elimina el estilo de lista por defecto */
+    padding: 0;
+}
+
+.lista-academica li {
+    background-color: #e0e0e0; /* Fondo para los elementos de la lista */
+    margin-bottom: 10px; /* Espaciado entre los elementos */
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #333; /* Color del texto */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para los elementos */
+    transition: background-color 0.3s; /* Transición suave al pasar el mouse */
+}
+
+.lista-academica li:hover {
+    background-color: #d1d1d1; /* Color de fondo al pasar el mouse por encima */
+}
+
+.proyectos {
+    background-color: #303030;
+    padding: 20px 0; 
+    text-align: center;
+    color: #F2F2F2;
+}
+
+.proyectos h2 {
+    font-size: 24px;
+    margin-top: 0;
+    padding-bottom: 20px; 
+}
+
+.proyecto {
+    width: 100%; /* Cambiado a 100% para aprovechar todo el espacio */
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-around; /* Cambiado a space-around para distribuir mejor las cards */
+    flex-wrap: nowrap; /* No permite que las cards salten a la siguiente línea */
+}
+
+.card {
+    text-align: center;
+    width: calc(20% - 20px); /* Cambiado a 20% para que quepan las 5 cards */
+    margin: 10px;
+    border: solid #F2F2F2 1px;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: transform 0.2s ease-in-out; 
+}
+
+.card img {
+    width: 100%;
+}
+
+.card:hover {
+    transform: scale(1.05); 
+}
+
+.proyectos .card a {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(185, 72, 185);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.proyectos .card a:hover {
+    background-color: rgb(104, 53, 104);
+}
+
+
+
+footer {
+    background-color: #fff; 
+    color: #303030; 
+    text-align: center;
+    padding: 40px; 
+}
+
+
+footer h2 {
+    font-size: 28px; 
+    margin-bottom: 20px; 
+}
+
+
+footer .red-social {
+    width: 60px; 
+    margin: 0 20px; 
+    transition: transform 0.3s ease;
+}
+
+
+footer .red-social:hover {
+    transform: scale(1.2); 
+}
