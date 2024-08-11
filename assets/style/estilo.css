@@ -303,3 +303,66 @@ footer .red-social {
 footer .red-social:hover {
     transform: scale(1.2); 
 }
+
+
+/* Reglas generales para dispositivos móviles */
+@media (max-width: 768px) {
+
+    /* Ajuste de la barra de navegación */
+    .navbar ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* Ajuste de las imágenes de las aptitudes */
+    .tech-list img {
+        width: 20%;
+        margin: 5px 0;
+    }
+
+    /* Ajuste de las cards de proyectos */
+    .proyecto {
+        flex-wrap: wrap; /* Permitir que las cards salten a la siguiente línea */
+        justify-content: center; /* Centrar las cards en dispositivos pequeños */
+    }
+
+    .card {
+        width: calc(90% - 20px); /* Aumentar el ancho de las cards en móviles */
+        margin-bottom: 20px;
+    }
+
+    /* Ajustes para las secciones */
+    .bloque-principal img {
+        width: 100%; /* Asegura que la imagen ocupe todo el ancho disponible */
+        height: auto; /* Mantiene la proporción de la imagen */
+    }
+
+    .primer-bloque, .Aptitudes, #informacion-academica {
+        padding: 10px;
+    }
+
+    /* Ajuste del footer */
+    footer .red-social {
+        width: 40px; /* Reducir el tamaño de los iconos en el footer */
+        margin: 10px;
+    }
+}
+
+/* Reglas para pantallas más pequeñas */
+@media (max-width: 480px) {
+
+    /* Ajuste de los textos */
+    h2, h4 {
+        font-size: 18px;
+    }
+
+    p, li {
+        font-size: 16px;
+    }
+
+    /* Ajuste adicional de las cards */
+    .card {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
