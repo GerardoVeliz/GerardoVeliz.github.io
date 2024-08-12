@@ -319,10 +319,10 @@ li {
 
 
 footer {
-    background-color: #fff; 
-    color: #303030; 
+    background-color: rgb(104, 53, 104);; 
+    color: white; 
     text-align: center;
-    padding: 40px; 
+    padding: 5px; 
 }
 
 
